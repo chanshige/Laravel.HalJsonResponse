@@ -1,0 +1,64 @@
+{
+  "name": "chanshige/laravel-hal-json-response",
+  "description": "HTTP responses in HAL-JSON format.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shigeki Tanaka",
+      "email": "dev@shigeki.tokyo"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Chanshige\\Laravel\\Http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Chanshige\\Laravel\\Http\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/contracts": "^9.0",
+    "illuminate/events": "^9.0",
+    "illuminate/routing": "^9.0",
+    "illuminate/support": "^9.0",
+    "koriym/http-constants": "^1.2",
+    "nocarrier/hal": "^0.9.14",
+    "rize/uri-template": "^0.3.4"
+  },
+  "require-dev": {
+    "doctrine/coding-standard": "^8.1",
+    "mockery/mockery": "^1.5",
+    "phpmd/phpmd": "^2.10",
+    "phpunit/phpunit": "^9.3",
+    "squizlabs/php_codesniffer": "^3.6"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Chanshige\\Laravel\\HalJsonResponseProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "tests": [
+      "phpmd src text ./phpmd.xml",
+      "phpcs src",
+      "@test"
+    ],
+    "test": [
+      "phpunit"
+    ]
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
