@@ -30,7 +30,7 @@
     "rize/uri-template": "^0.3.4"
   },
   "require-dev": {
-    "doctrine/coding-standard": "^8.1",
+    "doctrine/coding-standard": "^9.0.0",
     "mockery/mockery": "^1.5",
     "phpmd/phpmd": "^2.10",
     "phpunit/phpunit": "^9.3",
@@ -39,7 +39,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Chanshige\\Laravel\\HalJsonResponseProvider"
+        "Chanshige\\Laravel\\Http\\HalJsonResponseProvider"
       ]
     }
   },

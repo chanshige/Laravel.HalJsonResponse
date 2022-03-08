@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Chanshige\Laravel\Http;
 
-use Chanshige\Laravel\Http\Attributes\Link;
+use Chanshige\Laravel\Http\Attributes\HalLink as LinkAttribute;
 use Chanshige\Laravel\Http\Contracts\HalLinkInterface;
 use Chanshige\Laravel\Http\Extend\UriTemplate;
 use Nocarrier\Hal;
@@ -33,7 +33,7 @@ final class HalLink implements HalLinkInterface
     private function attributeLink(array $body, Traversable $attributes, Hal $hal): Hal
     {
         foreach ($attributes as $attribute) {
-            if (!$attribute instanceof Link) {
+            if (!$attribute instanceof LinkAttribute) {
                 continue;
             }
 

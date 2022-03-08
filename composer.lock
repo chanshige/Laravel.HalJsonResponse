@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "893cd13f810755863295512800e0a30a",
+    "content-hash": "5f41730dfd5d46be02e9abc333b89b40",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -170,16 +170,16 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
-                "reference": "c66f3c1b0397fcd974a90048f3d03aefa52d2224"
+                "reference": "924deabbfa8a4e6c02b7fade5e3f5c805b8920eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/bus/zipball/c66f3c1b0397fcd974a90048f3d03aefa52d2224",
-                "reference": "c66f3c1b0397fcd974a90048f3d03aefa52d2224",
+                "url": "https://api.github.com/repos/illuminate/bus/zipball/924deabbfa8a4e6c02b7fade5e3f5c805b8920eb",
+                "reference": "924deabbfa8a4e6c02b7fade5e3f5c805b8920eb",
                 "shasum": ""
             },
             "require": {
@@ -219,20 +219,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-03-02T15:22:48+00:00"
+            "time": "2022-03-08T16:13:29+00:00"
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "3f4db0d7d1583a09b024e66370f30ee8b633f588"
+                "reference": "22c4bb17f4e6c6fb470b5957e8232b1b5baf76b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/3f4db0d7d1583a09b024e66370f30ee8b633f588",
-                "reference": "3f4db0d7d1583a09b024e66370f30ee8b633f588",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/22c4bb17f4e6c6fb470b5957e8232b1b5baf76b0",
+                "reference": "22c4bb17f4e6c6fb470b5957e8232b1b5baf76b0",
                 "shasum": ""
             },
             "require": {
@@ -274,11 +274,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-02-28T12:33:28+00:00"
+            "time": "2022-03-07T15:02:25+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -324,7 +324,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -375,16 +375,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "7cf6c0c9fc14a1ea4a9860d6e69b52e513cb505f"
+                "reference": "ce68106c575410c71f92ac1c91c5d95c561033bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/7cf6c0c9fc14a1ea4a9860d6e69b52e513cb505f",
-                "reference": "7cf6c0c9fc14a1ea4a9860d6e69b52e513cb505f",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/ce68106c575410c71f92ac1c91c5d95c561033bc",
+                "reference": "ce68106c575410c71f92ac1c91c5d95c561033bc",
                 "shasum": ""
             },
             "require": {
@@ -419,11 +419,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-03-03T14:08:19+00:00"
+            "time": "2022-03-04T18:18:32+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -478,7 +478,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -540,16 +540,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "f9b5b5f99b01d9fbbd44293b49355b60963883d6"
+                "reference": "1bfe67293c2c5cd08ab0518e03e2dc200ab76bcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/f9b5b5f99b01d9fbbd44293b49355b60963883d6",
-                "reference": "f9b5b5f99b01d9fbbd44293b49355b60963883d6",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/1bfe67293c2c5cd08ab0518e03e2dc200ab76bcd",
+                "reference": "1bfe67293c2c5cd08ab0518e03e2dc200ab76bcd",
                 "shasum": ""
             },
             "require": {
@@ -595,11 +595,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-03-03T15:14:04+00:00"
+            "time": "2022-03-08T16:13:29+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.3.0",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -645,7 +645,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -693,7 +693,7 @@
         },
         {
             "name": "illuminate/routing",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
@@ -756,16 +756,16 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
-                "reference": "cea39fc676806fda66a6e126f456fe1cb716e0f6"
+                "reference": "4333d5a80266bdfc09e0fc01859261f9e0f871a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/session/zipball/cea39fc676806fda66a6e126f456fe1cb716e0f6",
-                "reference": "cea39fc676806fda66a6e126f456fe1cb716e0f6",
+                "url": "https://api.github.com/repos/illuminate/session/zipball/4333d5a80266bdfc09e0fc01859261f9e0f871a0",
+                "reference": "4333d5a80266bdfc09e0fc01859261f9e0f871a0",
                 "shasum": ""
             },
             "require": {
@@ -808,20 +808,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-02-23T15:02:31+00:00"
+            "time": "2022-03-04T18:18:32+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v9.3.1",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "1f5af4696a75ff39312a7f47401ebaf5c2bca415"
+                "reference": "568ed7a21a75e0bd9ca641b6c4a626872ee26d6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/1f5af4696a75ff39312a7f47401ebaf5c2bca415",
-                "reference": "1f5af4696a75ff39312a7f47401ebaf5c2bca415",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/568ed7a21a75e0bd9ca641b6c4a626872ee26d6f",
+                "reference": "568ed7a21a75e0bd9ca641b6c4a626872ee26d6f",
                 "shasum": ""
             },
             "require": {
@@ -877,7 +877,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-03-03T15:14:04+00:00"
+            "time": "2022-03-08T14:39:38+00:00"
         },
         {
             "name": "koriym/http-constants",
@@ -2850,16 +2850,16 @@
         },
         {
             "name": "voku/portable-ascii",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "9bd89e83cecdf8c37b64909454249eaed98b2c89"
+                "reference": "b56450eed252f6801410d810c8e1727224ae0743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/9bd89e83cecdf8c37b64909454249eaed98b2c89",
-                "reference": "9bd89e83cecdf8c37b64909454249eaed98b2c89",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/b56450eed252f6801410d810c8e1727224ae0743",
+                "reference": "b56450eed252f6801410d810c8e1727224ae0743",
                 "shasum": ""
             },
             "require": {
@@ -2896,7 +2896,7 @@
             ],
             "support": {
                 "issues": "https://github.com/voku/portable-ascii/issues",
-                "source": "https://github.com/voku/portable-ascii/tree/2.0.0"
+                "source": "https://github.com/voku/portable-ascii/tree/2.0.1"
             },
             "funding": [
                 {
@@ -2920,7 +2920,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-24T18:59:03+00:00"
+            "time": "2022-03-08T17:03:00+00:00"
         }
     ],
     "packages-dev": [
@@ -3138,23 +3138,23 @@
         },
         {
             "name": "doctrine/coding-standard",
-            "version": "8.2.1",
+            "version": "9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/coding-standard.git",
-                "reference": "f595b060799c1a0d76ead16981804eaa0bbcd8d6"
+                "reference": "35a2452c6025cb739c3244b3348bcd1604df07d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/coding-standard/zipball/f595b060799c1a0d76ead16981804eaa0bbcd8d6",
-                "reference": "f595b060799c1a0d76ead16981804eaa0bbcd8d6",
+                "url": "https://api.github.com/repos/doctrine/coding-standard/zipball/35a2452c6025cb739c3244b3348bcd1604df07d1",
+                "reference": "35a2452c6025cb739c3244b3348bcd1604df07d1",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7",
                 "php": "^7.1 || ^8.0",
-                "slevomat/coding-standard": "^6.4.1",
-                "squizlabs/php_codesniffer": "^3.5.8"
+                "slevomat/coding-standard": "^7.0.0",
+                "squizlabs/php_codesniffer": "^3.6.0"
             },
             "type": "phpcodesniffer-standard",
             "notification-url": "https://packagist.org/downloads/",
@@ -3187,9 +3187,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/coding-standard/issues",
-                "source": "https://github.com/doctrine/coding-standard/tree/8.2.1"
+                "source": "https://github.com/doctrine/coding-standard/tree/9.0.0"
             },
-            "time": "2021-04-03T10:54:55+00:00"
+            "time": "2021-04-12T15:11:14+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -3979,37 +3979,33 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "0.4.9",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "98a088b17966bdf6ee25c8a4b634df313d8aa531"
+                "reference": "dbc093d7af60eff5cd575d2ed761b15ed40bd08e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/98a088b17966bdf6ee25c8a4b634df313d8aa531",
-                "reference": "98a088b17966bdf6ee25c8a4b634df313d8aa531",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/dbc093d7af60eff5cd575d2ed761b15ed40bd08e",
+                "reference": "dbc093d7af60eff5cd575d2ed761b15ed40bd08e",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "consistence/coding-standard": "^3.5",
-                "ergebnis/composer-normalize": "^2.0.2",
-                "jakub-onderka/php-parallel-lint": "^0.9.2",
-                "phing/phing": "^2.16.0",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.26",
-                "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^6.3",
-                "slevomat/coding-standard": "^4.7.2",
-                "symfony/process": "^4.0"
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "symfony/process": "^5.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -4026,9 +4022,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/master"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.2.0"
             },
-            "time": "2020-08-03T20:32:43+00:00"
+            "time": "2021-09-16T20:46:02+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -5417,37 +5413,37 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "6.4.1",
+            "version": "7.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "696dcca217d0c9da2c40d02731526c1e25b65346"
+                "reference": "bef66a43815bbf9b5f49775e9ded3f7c6ba0cc37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/696dcca217d0c9da2c40d02731526c1e25b65346",
-                "reference": "696dcca217d0c9da2c40d02731526c1e25b65346",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/bef66a43815bbf9b5f49775e9ded3f7c6ba0cc37",
+                "reference": "bef66a43815bbf9b5f49775e9ded3f7c6ba0cc37",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7",
                 "php": "^7.1 || ^8.0",
-                "phpstan/phpdoc-parser": "0.4.5 - 0.4.9",
-                "squizlabs/php_codesniffer": "^3.5.6"
+                "phpstan/phpdoc-parser": "^1.0.0",
+                "squizlabs/php_codesniffer": "^3.6.2"
             },
             "require-dev": {
-                "phing/phing": "2.16.3",
-                "php-parallel-lint/php-parallel-lint": "1.2.0",
-                "phpstan/phpstan": "0.12.48",
-                "phpstan/phpstan-deprecation-rules": "0.12.5",
-                "phpstan/phpstan-phpunit": "0.12.16",
-                "phpstan/phpstan-strict-rules": "0.12.5",
-                "phpunit/phpunit": "7.5.20|8.5.5|9.4.0"
+                "phing/phing": "2.17.2",
+                "php-parallel-lint/php-parallel-lint": "1.3.2",
+                "phpstan/phpstan": "1.4.6",
+                "phpstan/phpstan-deprecation-rules": "1.0.0",
+                "phpstan/phpstan-phpunit": "1.0.0",
+                "phpstan/phpstan-strict-rules": "1.1.0",
+                "phpunit/phpunit": "7.5.20|8.5.21|9.5.16"
             },
             "type": "phpcodesniffer-standard",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.x-dev"
+                    "dev-master": "7.x-dev"
                 }
             },
             "autoload": {
@@ -5462,7 +5458,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/6.4.1"
+                "source": "https://github.com/slevomat/coding-standard/tree/7.0.19"
             },
             "funding": [
                 {
@@ -5474,7 +5470,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-05T12:39:37+00:00"
+            "time": "2022-03-01T18:01:41+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
