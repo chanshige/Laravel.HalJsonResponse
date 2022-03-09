@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Chanshige\Laravel\Http;
 
 use Chanshige\Laravel\Http\Fixtures\IndexAction;
+use Chanshige\Laravel\Http\Fixtures\NoContentAction;
 use Chanshige\Laravel\Http\Fixtures\UserCreateAction;
+use Koriym\HttpConstants\RequestHeader;
+use Koriym\HttpConstants\StatusCode;
 
 class HalJsonResponseTest extends BaseTestCase
 {
@@ -28,8 +31,8 @@ class HalJsonResponseTest extends BaseTestCase
         }
         EOF;
 
-        $this->assertEquals(200, $response->getStatusCode());
-        $this->assertEquals('application/hal+json', $response->headers->get('Content-Type'));
+        $this->assertEquals(StatusCode::OK, $response->getStatusCode());
+        $this->assertEquals('application/hal+json', $response->headers->get(RequestHeader::CONTENT_TYPE));
         $this->assertEquals($expectedContent, $response->getContent());
     }
 
@@ -52,8 +55,17 @@ class HalJsonResponseTest extends BaseTestCase
         }
         EOF;
 
-        $this->assertEquals(201, $response->getStatusCode());
-        $this->assertEquals('application/hal+json', $response->headers->get('Content-Type'));
+        $this->assertEquals(StatusCode::CREATED, $response->getStatusCode());
+        $this->assertEquals('application/hal+json', $response->headers->get(RequestHeader::CONTENT_TYPE));
         $this->assertEquals($expectedContent, $response->getContent());
+    }
+
+    public function testNoContentAction()
+    {
+        $response = $this->mockRun('/no-content', NoContentAction::class);
+
+        $this->assertEquals(StatusCode::NO_CONTENT, $response->getStatusCode());
+        // コンテンツを返さないのでContent-Typeのテストはしない
+        $this->assertEquals('', $response->getContent());
     }
 }

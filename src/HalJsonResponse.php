@@ -37,8 +37,16 @@ final class HalJsonResponse implements HalJsonResponseInterface
     ) {
     }
 
+    public function withStatusCode(int $code): HalJsonResponseInterface
+    {
+        $clone = clone $this;
+        $clone->code = $code;
+
+        return $clone;
+    }
+
     /**
-     * @param array<string, string> $headers
+     * {@inheritdoc}
      */
     public function withHeaders(array $headers): HalJsonResponseInterface
     {
@@ -48,15 +56,10 @@ final class HalJsonResponse implements HalJsonResponseInterface
         return $clone;
     }
 
-    public function withStatusCode(int $code): HalJsonResponseInterface
-    {
-        $clone = clone $this;
-        $clone->code = $code;
-
-        return $clone;
-    }
-
-    public function withContent(mixed $content): HalJsonResponseInterface
+    /**
+     * {@inheritdoc}
+     */
+    public function withContent(array $content): HalJsonResponseInterface
     {
         $clone = clone $this;
         $clone->content = $content;
