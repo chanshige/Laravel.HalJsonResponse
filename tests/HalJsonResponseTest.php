@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Chanshige\Laravel\Http;
 
+use Chanshige\Laravel\Http\Fixtures\BodyLinksAction;
 use Chanshige\Laravel\Http\Fixtures\IndexAction;
 use Chanshige\Laravel\Http\Fixtures\NoContentAction;
 use Chanshige\Laravel\Http\Fixtures\UserCreateAction;
@@ -67,5 +68,30 @@ class HalJsonResponseTest extends BaseTestCase
         $this->assertEquals(StatusCode::NO_CONTENT, $response->getStatusCode());
         // コンテンツを返さないのでContent-Typeのテストはしない
         $this->assertEquals('', $response->getContent());
+    }
+
+    public function testBodyLinksAction()
+    {
+        $response = $this->mockRun('/links', BodyLinksAction::class);
+        $expectedContent = <<<EOF
+        {
+            "greeting": "Hi! hyper media.",
+            "_links": {
+                "self": {
+                    "href": "/links"
+                },
+                "test": {
+                    "href": "/body_link"
+                },
+                "bttf": {
+                    "href": "/back_in_time"
+                }
+            }
+        }
+        EOF;
+
+        $this->assertEquals(StatusCode::OK, $response->getStatusCode());
+        $this->assertEquals('application/hal+json', $response->headers->get(RequestHeader::CONTENT_TYPE));
+        $this->assertEquals($expectedContent, $response->getContent());
     }
 }
