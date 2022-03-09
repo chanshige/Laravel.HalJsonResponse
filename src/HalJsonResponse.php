@@ -21,7 +21,7 @@ use Traversable;
 
 use function array_merge;
 
-final class HalJsonResponse implements HalJsonResponseInterface
+class HalJsonResponse implements HalJsonResponseInterface
 {
     private int $code = StatusCode::OK;
 
