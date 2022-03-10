@@ -9,7 +9,7 @@ use Chanshige\Laravel\Http\Contracts\HalLinkInterface;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-final class HalJsonResponseProvider extends ServiceProvider implements DeferrableProvider
+class HalJsonResponseProvider extends ServiceProvider implements DeferrableProvider
 {
     public function register()
     {
